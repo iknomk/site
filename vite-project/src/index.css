@@ -1,0 +1,46 @@
+@import "tailwindcss";
+:root {
+  --color-Onprimary: #FFFFFF;
+  --color-primary: #FF6633;
+  --color-primaryMuted: #FCD5BA;
+  --color-secondary: #70C05B;
+  --gray-hard: #8F8F8F;
+  --color-Onsurface: #414141;
+  --gray-light: #BFBFBF;
+  --gray-hardest: #606060;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('./fonts/Rubik-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('./fonts/Rubik-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Rubik';
+  src: url('./fonts/Rubik-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+* {
+  font-family: 'Rubik', sans-serif !important;
+}
+
+/* Или более специфично */
+body, html, div, span, h1, h2, h3, h4, h5, h6, 
+p, a, button, input, textarea, select, label, 
+li, td, th, ::placeholder, ::-webkit-input-placeholder {
+  font-family: 'Rubik', sans-serif !important;
+}
