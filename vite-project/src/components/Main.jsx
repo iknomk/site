@@ -54,7 +54,55 @@ export const ProductExamples = () => {
       rating: 4,
       showCardPrice: true,
       showRegularPrice: true
-    }
+    },
+    {
+      id: 5,
+      image: blackSausage,
+      name: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
+      cardPrice: 599.99,
+      regularPrice: 50.50,
+      discount: null,
+      rating: 2,
+      showCardPrice: false,
+      showRegularPrice: false,
+      singlePrice: true
+    },
+    {
+      id: 6,
+      image: sausage,
+      name: "Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...",
+      cardPrice: 44.50,
+      regularPrice: 50.50,
+      discount: 15,
+      rating: 4,
+      showCardPrice: false,
+      showRegularPrice: false,
+      singlePrice: true
+    },
+    {
+      id: 7,
+      image: sausagesOrange,
+      name: "Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ Сальчичон и Тоскан...",
+      cardPrice: 44.50,
+      regularPrice: 50.50,
+      discount: null,
+      rating: 5,
+      showCardPrice: false,
+      showRegularPrice: false,
+      singlePrice: true
+    },
+    {
+      id: 8,
+      image: sausage,
+      name: "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
+      cardPrice: 44.50,
+      regularPrice: 50.50,
+      discount: 15,
+      rating: 2,
+      showCardPrice: false,
+      showRegularPrice: false,
+      singlePrice: true
+    },
   ];
 
   return (
@@ -83,7 +131,10 @@ function Main() {
                 <p className='text-[36px] font-bold mx-[116px] my-[40px]'>Акции</p>
                 <ProductExamples /> 
             </section>
-            
+            <section>
+                <p className='text-[36px] font-bold mx-[116px] my-[40px]'>Новинки</p>
+                <ProductExamples /> 
+            </section>
         </main>
         </>
     )
